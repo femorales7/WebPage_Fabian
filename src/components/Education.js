@@ -45,7 +45,12 @@ const Education = () => {
             type="Bachelor’s Degree, Systems Engineer"
             time="06/2010 – 08/2011"
             place="UNAD University, Bogotá, Colombia"
-            info="Calgary, Canada"            
+            info="The professional graduated from the Systems Engineering program at UNAD will be able to:
+
+            Conceive, design, implement and operate systems, services and computer applications using the methods of software engineering as a tool for quality assurance.
+            Model, design, implement and manage data and information, to ensure the operational availability of data and guarantee the production environment and management of large volumes of information.
+            Ability to understand, implement, manage and ensure information security in information systems.
+            Develop methods, tools and models to conceive, design, implement and operate information technologies for information processing and management."            
           />
          
         </ul>
