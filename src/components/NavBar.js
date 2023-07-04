@@ -4,6 +4,8 @@ import React from "react";
 import Logo from "./logo";
 import { GithubIcon, LinkedInIcon, MoonIcon, SunIcon } from "./Icons";
 import {motion} from "framer-motion"
+import useThemeSwitcher from "./hooks/useThemeSwitcher";
+
 
 const CustomLink = ({ href, title, className = "" }) => {
   const router = useRouter();
@@ -24,6 +26,7 @@ const CustomLink = ({ href, title, className = "" }) => {
 };
 
 const NavBar = () => {
+  const [mode, setMode] = useThemeSwitcher()
   return (
     <header className="w-full px-32 py-8  font-medium flex items-center justify-between">
       <nav>
@@ -46,11 +49,11 @@ const NavBar = () => {
         whileTap={{scale:0.9}}>
           <LinkedInIcon/>
         </motion.a>
-        <motion.a href="/" target={"_blank"}
+        {/* <motion.a href="/" target={"_blank"}
         whileHover={{y:-2}}
         className="w-6 mr-3"
         whileTap={{scale:0.9}}>
-          <MoonIcon/>
+          
         </motion.a>
         
         <motion.a href="/" target={"_blank"}
@@ -58,7 +61,19 @@ const NavBar = () => {
         className="w-6 mr-3"
         whileTap={{scale:0.9}}>
           <SunIcon/>
-        </motion.a>
+        </motion.a> */}
+
+        <button
+        onClick={() => setMode (mode === 'light' ? 'dark' : 'light')}>
+          {
+            mode==="dark" ?
+            <SunIcon className={'fill-dark'}/>
+            :
+            <MoonIcon className={'fill-dark'}/>
+
+          }
+
+        </button>
         
       </nav>
       <div className="absolute left-[50%] top-2  traslate-x-[-50%]">
