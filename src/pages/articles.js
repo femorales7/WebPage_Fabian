@@ -60,19 +60,19 @@ const Article = ({ img, title, date, link }) => {
       viewport={{ once: true }}
       className="relative w-full p-1 py-6 my-4 rounded-xl flex items-center
     justify-between bg-light text-dark first:mt-0 border border-solid border-dark
-    border-r-4 border-red-r-4"
+    border-r-4 border-red-r-4 dark:border-light dark:bg-dark dark:text-light"
     >
       <MovingImg title={title} img={img} link={link} />
-      <span className="text-blue-700 font-semibold pl-4 ">{date}</span>
+      <span className="text-blue-700  dark:text-blue-400 font-semibold pl-4 ">{date}</span>
     </motion.li>
   );
 };
 
 const FeatureArticle = ({ img, title, time, summary, link }) => {
   return (
-    <li className=" relative col-san-1 w-full p-4 bg-light border border-solid border-dark rounded-2xl">
+    <li className=" relative col-san-1 w-full p-4 bg-light border border-solid border-dark rounded-2xl dark:bg-dark dark:border-light">
       <div
-        className="absolute top-0 -right-3 left-0 -z-10 w-[102%]  h-[102%] rounded-[2.9rem] bg-dark 
+        className="absolute top-0 -right-3 left-0 -z-10 w-[102%]  h-[102%] rounded-[2.9rem] bg-dark  dark:bg-light
       rounded-br-3xl"
       />
       <Link
@@ -86,6 +86,10 @@ const FeatureArticle = ({ img, title, time, summary, link }) => {
           className="w-full h-auto rounded-2xl"
           whileHover={{ scale: 1.05 }}
           transition={{ duration: 0.2 }}
+          priority
+                sizes="(max-width: 768px) 100vw,
+                (max-width: 1200px) 50vw,
+                50vw"
         />
       </Link>
       <Link href={link} target="_blank">
@@ -94,7 +98,7 @@ const FeatureArticle = ({ img, title, time, summary, link }) => {
         </h2>
       </Link>
       <p className="text-sm mb-2">{summary}</p>
-      <span className="text-blue-700 font-semibold">{time}</span>
+      <span className="text-blue-700 font-semibold dark:text-blue-400">{time}</span>
     </li>
   );
 };
@@ -109,7 +113,7 @@ const articles = () => {
           content="This page is for portafolio of full stack developer Fabian Morales"
         />
       </Head>
-      <main className="w-full mb-16 flex flex-col items-center justify-center overflow-hidden">
+      <main className="w-full mb-16 flex flex-col items-center justify-center overflow-hidden dark:text-light">
         <Layout className="pt-16">
           <AnimatedText
             text="WebSocket Libraries: Building Real-time Apps with SockJS, ws, Socket.IO, and More"
