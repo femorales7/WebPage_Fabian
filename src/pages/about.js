@@ -45,10 +45,10 @@ const about = () => {
         />
       </Head>
       <main className="flex w-full flex-col items-center justify-center dark:text-light">
-        <Layout className="pt-6">
+        <Layout className="pt-6 ">
           <AnimatedText
             text="Perseverance, Discipline and Passion are the keys to achieving goals."
-            className="mb-16"
+            className="mb-16 text-8xl lg:!text-7xl sm:!text-6xl xs:!text-4xl "
           />
           <div className="grid w-full grid-cols-8 gap-16 ">
             <div className="col-span-4 flex flex-col items-start justify-start">
