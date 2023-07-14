@@ -23,7 +23,7 @@ const Logo = ({mode}) => {
       whileHover={{ 
         // backgroundColor:hoverBackgroundColor,
         transition: {duration:1, repeat: Infinity}
-      }}><Image src={logoFM}/>
+      }}><Image src={logoFM} alt="Fabian Morales"/>
       </MotionLink>
       </div>
   )

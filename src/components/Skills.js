@@ -29,7 +29,7 @@ const Skill = ({ src, x, y, name }) => {
       viewport={{ once: true }}
     >
 
-      <Image src={src} className="w-[10%] h-[10%]  fill-dark  dark:fill-light"/>{name}
+      <Image src={src} alt={name} className="w-[10%] h-[10%]  fill-dark  dark:fill-light"/>{name}
     </motion.div>
   );
 };

@@ -56,7 +56,7 @@ const about = () => {
                 Biography
               </h2>
               <p className="font-medium">
-                Hello I'm Fabian Morales, a System Engineer and full-stack
+                Hello I am Fabian Morales, a System Engineer and full-stack
                 developer. Throughout my career, I have excelled in roles such
                 as 1st and 2nd level support, manual testing, and Scrum master.
                 My proficiency extends to research, planning, design,

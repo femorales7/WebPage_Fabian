@@ -117,7 +117,7 @@ const articles = () => {
       <main className="w-full mb-16 flex flex-col items-center justify-center overflow-hidden dark:text-light">
         <Layout className="pt-16">
           <AnimatedText
-            text="WebSocket Libraries: Building Real-time Apps with SockJS, ws, Socket.IO, and More"
+            text="The best way to learn is to never lose your curiosity."
             className="mb-16 lg:!text-7xl sm:mb-8 sm:!text-6xl xs:!text-4xl"
           />
           <ul className="grid grid-cols-2 gap-16 md:grid-cols-1 lg:gap-8 md:gap-y-16">
