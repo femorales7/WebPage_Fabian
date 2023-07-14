@@ -52,19 +52,19 @@ const Skills = () => {
           Web
         </motion.div>
         <Skill src={html} x="-16vw" y="-2vw" name='Html'/>
-        <Skill src={ReactJS} x="-5vw" y="-43vw" name='ReactJs' />
-        <Skill src={JavaScript} name="JavaScript" x="18vw" y="29vw" />
+        <Skill src={ReactJS} x="-5vw" y="-23vw" name='ReactJs' />
+        <Skill src={JavaScript} name="JavaScript" x="4vw" y="20vw" />
         <Skill src={Mocha} name="Mocha" x="39vw" y="8vw" />
         <Skill src={CSS} name="CSS" x="0vw" y="9vw" />
-        <Skill src={Cypress} name="Cypress" x="-20vw" y="-25vw" />
+        <Skill src={Cypress} name="Cypress" x="-20vw" y="-15vw" />
         <Skill src={Ruby} name="Ruby" x="18vw" y="-12vw" />
         <Skill src={SQL} name="SQL" x="32vw" y="-5vw" />
-        <Skill src={NodeJs} name="Node.Js" x="-0vw" y="-21vw" />
+        <Skill src={NodeJs} name="Node.Js" x="-0vw" y="-13vw" />
         <Skill src={scrum} name="Scrum" x="-35vw" y="-13vw" />
-        <Skill src={Git} name="Git" x="21vw" y="-36vw" />
-        <Skill src={Express} name="Express.Js" x="20vw" y="17vw" />
+        <Skill src={Git} name="Git" x="21vw" y="-20vw" />
+        <Skill src={Express} name="Express.Js" x="20vw" y="13vw" />
         <Skill src={jQuery} name="jQuery" x="-19vw" y="14vw" />
-        <Skill src={SASS} name="SASS" x="-15vw" y="32vw" />
+        <Skill src={SASS} name="SASS" x="-15vw" y="9vw" />
         <Skill src={Rails} name="Rails" x="-30vw" y="10vw" />
       </div>
     </>
