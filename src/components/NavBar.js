@@ -191,7 +191,8 @@ const NavBar = () => {
       ) : null}
 
       <div className="absolute left-[50%] top-2  traslate-x-[-50%]">
-        <Logo />
+        
+        <Logo mode={mode} className="pt-8"/>
       </div>
     </header>
   );
