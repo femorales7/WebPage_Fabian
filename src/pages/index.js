@@ -43,7 +43,7 @@ export default function Home() {
               </p>
               <div className="flex items-cener self-start mt-2 lg:self-center">
                 <Link
-                  href="/Fabian_Morales_Resume_02-06-2023-01-04-26.pdf"
+                  href="/Fabian_Morales_Resume_05-07-2023-16-37-36.pdf"
                   target={"_blank"}
                   className="flex items-center bg-dark text-light p-2.5 px-6
                 rounded-lg text-lg font-semibold hover:bg-light hover:text-dark 
