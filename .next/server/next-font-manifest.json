@@ -1,10 +1,6 @@
 {
-  "pages": {
-    "/_app": [
-      "static/media/1060bab20f18b5c2-s.p.woff2"
-    ]
-  },
+  "pages": {},
   "app": {},
   "appUsingSizeAdjust": false,
-  "pagesUsingSizeAdjust": true
+  "pagesUsingSizeAdjust": false
 }

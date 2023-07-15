@@ -55,7 +55,7 @@ const about = () => {
               <h2 className="mb-4 text-lg font-bold uppercase text-dark/75 dark:text-light/75">
                 Biography
               </h2>
-              <p className="font-medium">
+              <p className="font-large">
                 Hello I am Fabian Morales, a System Engineer and full-stack
                 developer. Throughout my career, I have excelled in roles such
                 as 1st and 2nd level support, manual testing, and Scrum master.
@@ -65,7 +65,7 @@ const about = () => {
                 delivering high-quality work.
               </p>
 
-              <p className="  my-4 font-medium">
+              <p className="  my-4 font-large">
                 In terms of skills, I am well-versed in languages such as
                 JavaScript, Ruby, HTML, and CSS. I am also proficient in various
                 testing tools including Cypress, RSpec, Jest, Mocha, Chai, and
@@ -78,19 +78,19 @@ const about = () => {
                 as MS TFS and MS Office configuration and maintenance.
               </p>
 
-              <p className=" my-4 font-medium">
+              <p className=" my-4 font-large">
                 In my professional experience, I have played the role of Scrum
                 Master, Tester and second support in these different roles I
                 also acquired the ability to perform different types of
                 documentation such as manuals, user stories and bugs and
                 requirements. I have played different roles such as
                 administrator of social media platforms and websites, technical
-                support provider .I have also provided hardware, software and
+                support provider. I have also provided hardware, software and
                 network support, as well as advice on equipment procurement,
                 installation and maintenance of workstations.
               </p>
 
-              <p className=" font-medium">
+              <p className=" font-large">
                 Overall, my diverse skill set, extensive experience, and
                 dedication to excellence make me a valuable professional in the
                 field of IT.
