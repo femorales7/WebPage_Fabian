@@ -108,10 +108,10 @@ const articles = () => {
   return (
     <>
       <Head>
-        <title>Fabian Morales | About Page</title>
+        <title>Fabian Morales | Articles Page</title>
         <meta
           name="description"
-          content="This page is for portafolio of full stack developer Fabian Morales"
+          content="These are the articles written by Fabian Morales"
         />
       </Head>
       <main className="w-full mb-16 flex flex-col items-center justify-center overflow-hidden dark:text-light">

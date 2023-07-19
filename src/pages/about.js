@@ -41,7 +41,7 @@ const about = () => {
         <title>Fabian Morales | About Page</title>
         <meta
           name="description"
-          content="This page is for portafolio of full stack developer Fabian Morales"
+          content="This page is the biography of Fabian Morales."
         />
       </Head>
       <main className="flex w-full flex-col items-center justify-center dark:text-light">
